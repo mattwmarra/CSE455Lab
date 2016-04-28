@@ -17,17 +17,24 @@
 </nav>
 </header>
 
-<button type="button" class="btn btn-primary" onclick="dothing()">Press Me!</button>
+<button type="button" id = "dButton"class="btn btn-primary" onclick="disableButton()">Disable Me</button>
+<button type="button" id = "eButton"class="btn btn-primary" onclick="enableButton()">Enable Both Buttons</button>
 
-<h2 class="text-center">About Us.</h2>
+<h3 class="text-center">About Us.</h3>
 <p class = "text-center">
 	We are currently in the process of making a project that displays our knowledge of version control using GitHub. 
 </p>
 </body>
+
+
 <script type="text/javascript">
-	function dothing(){
-		document.getElementById("title").innerHTML = "Button Pressed!";
+	function disableButton(){
+		document.getElementById("dButton").disabled = true;
+		document.getElementById("eButton").disabled = false;
 		return;
+	}
+	function enableButton(){
+		document.getElementById("dButton").disabled = false;
 	}
 </script>
 </html>
