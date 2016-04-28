@@ -12,12 +12,18 @@
 
 <body>
 <header>
-<h1>A Basic Boostrap Website for CSE 445</h1>
+<h1 id="title">A Basic Boostrap Website for CSE 445</h1>
 
 </nav>
 </header>
 
+<button type="button" class="btn btn-primary" onclick="dothing()">Press Me!</button>
 
-</div>
+<script type="text/javascript">
+	function dothing(){
+		document.getElementById("title").innerHTML = "Haha, what's up now?!";
+		return;
+	}
+</script>
 </body>
 </html>
