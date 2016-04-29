@@ -1,3 +1,5 @@
+#ifndef SWOLE_H_
+#define	SWOLE_H_
 #include "iostream"
 ##include "string"
 
@@ -23,3 +25,6 @@ int main(int argc, char const *argv[])
 	
 	return 0;
 }
+
+
+#endif
