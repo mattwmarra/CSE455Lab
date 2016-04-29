@@ -1,3 +1,6 @@
+#ifndef PERSON_H_
+#define PERSON_H_
+
 #include "iostream"
 ##include "string"
 
@@ -23,3 +26,5 @@ int main(int argc, char const *argv[])
 	
 	return 0;
 }
+
+#endif
