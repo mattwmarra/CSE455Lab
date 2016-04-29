@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>CSE 455 Repository </title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<title>Swole</title>
+	<link rel = "stylesheet "type="text/css" href="stylesheet.css">
 	<!-- 
 		Matt Marra
 		Cesar Guerrero
@@ -11,30 +11,57 @@
 </head>
 
 <body>
-<header>
-<h1 id="title" class = "text-center">A Basic Boostrap Website for CSE 445</h1>
-
-</nav>
+<header class="container-fluid">
+<h1 id="title" >Swole</h1>
+<h3><em>Your New Gym Buddy</em></h3>
 </header>
+	<div class = "about">
+	<h2>What is Swole?</h2>
+	<p class = "text-center"><em>
+		Swole is a third party mobile application created with the full intention of making you a more motivated and fit version of yourself.</em>
+	</p>
+	</div>
 
-<button type="button" id = "dButton"class="btn btn-primary" onclick="disableButton()">Disable Me</button>
-<button type="button" id = "eButton"class="btn btn-primary" onclick="enableButton()">Enable Both Buttons</button>
+	<div class = "about">
+	<h2>What to Expect?</h2>
+	<h3>Swole is Developed by Fitness Enthusiats for Fitness Enthusiasts</h3>
+	<h3 class = "text-center">
+		<em>Features Include:</em>
+	</h3>
+	<ul>
+		<li>Log all of your workouts and track your progress</li>
+		<li>Stay on top of all your workouts with unintrusive reminders</li>
+		<li>Record your personal bests with unmatched ease</li>
+		<li>Compare yourself with other users like you</li>
+		<li>Track your height and weight as you improve</li>
+		<li></li>
+	</ul>
+	</div>
 
-<h3 class="text-center">About Us.</h3>
-<p class = "text-center">
-	We are currently in the process of making a project that displays our knowledge of version control using GitHub. 
-</p>
+
+<div class = "container">
+	<h1>Meet the Team</h2>
+	<ul>
+		<li><h2>Matt Marra</h2>
+			<h4><em>Founder - Android/iOS Development</em></h4>
+		</li>
+		<li><h2>Cesar Guerrero</h2>
+			<h4><em>iOS Development - Project Manager</em></h4>
+		</li>
+		<li><h2>Billy Juergens</h2>
+			<h4><em>Android Development - Quality Assurance</em></h4>
+		</li>
+	</ul>
+</div>
+
+<h3><em>Coming August 2016</em></h3>
+<ul class = "bottom-bar">
+	<a href="#"><li>Contact</li></a>
+	<a href="#"><li>Contribute</li></a>
+	<a href="#"><li>Help</li></a>
+</ul>
 </body>
 
-
 <script type="text/javascript">
-	function disableButton(){
-		document.getElementById("dButton").disabled = true;
-		document.getElementById("eButton").disabled = false;
-		return;
-	}
-	function enableButton(){
-		document.getElementById("dButton").disabled = false;
-	}
 </script>
 </html>
